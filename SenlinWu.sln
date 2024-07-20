@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenlinWu", "src\SenlinWu\SenlinWu.csproj", "{4D742AC5-26DC-4EB9-8E2D-554DD8B7B64B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5EDBCE42-D6F0-4710-921E-6E3853900B6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "modules", "modules", "{CAB9D46F-F3D4-46E3-9AAD-886C64BD8978}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenlinWu.Pets.Application", "src\modules\pet\SenlinWu.Pets.Application\SenlinWu.Pets.Application.csproj", "{DB04C187-0894-4489-AD9A-ACDE0A4326E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pet", "pet", "{159B43D9-73BE-4DD8-B860-5587BF60C8FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenlinWu.Pets", "src\modules\pet\SenlinWu.Pets\SenlinWu.Pets.csproj", "{24A77CAE-194B-48CE-932C-DE5BF0AC5593}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenlinWu.Pets.Repository", "src\modules\pet\SenlinWu.Pets.Repository\SenlinWu.Pets.Repository.csproj", "{871BD573-FE7C-4748-93D0-E2A1ADD454C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenlinWu.Pets.Domain", "src\modules\pet\SenlinWu.Pets.Domain\SenlinWu.Pets.Domain.csproj", "{6F9E0085-FF9F-48B4-885B-80636EDE3EAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenlinWu.Pets.Repository.Abstractions", "src\modules\pet\SenlinWu.Pets.Repository.Abstractions\SenlinWu.Pets.Repository.Abstractions.csproj", "{787FCE46-F648-4BC0-B933-E7E2678DB17E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution", "solution", "{1F363A41-B80D-49D2-9D20-A1EE15261A72}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D742AC5-26DC-4EB9-8E2D-554DD8B7B64B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D742AC5-26DC-4EB9-8E2D-554DD8B7B64B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D742AC5-26DC-4EB9-8E2D-554DD8B7B64B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D742AC5-26DC-4EB9-8E2D-554DD8B7B64B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB04C187-0894-4489-AD9A-ACDE0A4326E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB04C187-0894-4489-AD9A-ACDE0A4326E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB04C187-0894-4489-AD9A-ACDE0A4326E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB04C187-0894-4489-AD9A-ACDE0A4326E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24A77CAE-194B-48CE-932C-DE5BF0AC5593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24A77CAE-194B-48CE-932C-DE5BF0AC5593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24A77CAE-194B-48CE-932C-DE5BF0AC5593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24A77CAE-194B-48CE-932C-DE5BF0AC5593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{871BD573-FE7C-4748-93D0-E2A1ADD454C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{871BD573-FE7C-4748-93D0-E2A1ADD454C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{871BD573-FE7C-4748-93D0-E2A1ADD454C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{871BD573-FE7C-4748-93D0-E2A1ADD454C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F9E0085-FF9F-48B4-885B-80636EDE3EAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F9E0085-FF9F-48B4-885B-80636EDE3EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F9E0085-FF9F-48B4-885B-80636EDE3EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F9E0085-FF9F-48B4-885B-80636EDE3EAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{787FCE46-F648-4BC0-B933-E7E2678DB17E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{787FCE46-F648-4BC0-B933-E7E2678DB17E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{787FCE46-F648-4BC0-B933-E7E2678DB17E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{787FCE46-F648-4BC0-B933-E7E2678DB17E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D742AC5-26DC-4EB9-8E2D-554DD8B7B64B} = {5EDBCE42-D6F0-4710-921E-6E3853900B6C}
+		{CAB9D46F-F3D4-46E3-9AAD-886C64BD8978} = {5EDBCE42-D6F0-4710-921E-6E3853900B6C}
+		{159B43D9-73BE-4DD8-B860-5587BF60C8FA} = {CAB9D46F-F3D4-46E3-9AAD-886C64BD8978}
+		{DB04C187-0894-4489-AD9A-ACDE0A4326E6} = {159B43D9-73BE-4DD8-B860-5587BF60C8FA}
+		{24A77CAE-194B-48CE-932C-DE5BF0AC5593} = {159B43D9-73BE-4DD8-B860-5587BF60C8FA}
+		{871BD573-FE7C-4748-93D0-E2A1ADD454C5} = {159B43D9-73BE-4DD8-B860-5587BF60C8FA}
+		{6F9E0085-FF9F-48B4-885B-80636EDE3EAB} = {159B43D9-73BE-4DD8-B860-5587BF60C8FA}
+		{787FCE46-F648-4BC0-B933-E7E2678DB17E} = {159B43D9-73BE-4DD8-B860-5587BF60C8FA}
+	EndGlobalSection
+EndGlobal

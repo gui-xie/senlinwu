@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Senlin.Mo.Domain" Version="1.0.27-alpha"/>
+        <PackageReference Include="Senlin.Mo.Localization" Version="1.0.27-alpha" PrivateAssets="all"/>
+        <PackageReference Include="Senlin.Mo.Localization.Abstractions" Version="1.0.27-alpha" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="L\l.json" />
+      <AdditionalFiles Include="L\l.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </AdditionalFiles>
+    </ItemGroup>
+
+</Project>

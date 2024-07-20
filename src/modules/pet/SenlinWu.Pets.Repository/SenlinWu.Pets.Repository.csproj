@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Senlin.Mo.Repository.EFCore.MySQL" Version="1.0.27-alpha" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SenlinWu.Pets.Domain\SenlinWu.Pets.Domain.csproj" />
+      <ProjectReference Include="..\SenlinWu.Pets.Repository.Abstractions\SenlinWu.Pets.Repository.Abstractions.csproj" />
+    </ItemGroup>
+</Project>

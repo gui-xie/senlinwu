@@ -1,0 +1,6 @@
+@SenlinWu_HostAddress = http://localhost:5067
+
+GET {{SenlinWu_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

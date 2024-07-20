@@ -1,2 +1,2 @@
 # senlinwu
-A demo to use Senlin.Mo
+A example to use Senlin.Mo
