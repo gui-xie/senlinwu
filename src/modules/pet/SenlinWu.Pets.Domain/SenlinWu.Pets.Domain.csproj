@@ -7,9 +7,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Senlin.Mo.Domain" Version="1.0.27-alpha"/>
-        <PackageReference Include="Senlin.Mo.Localization" Version="1.0.27-alpha" PrivateAssets="all"/>
-        <PackageReference Include="Senlin.Mo.Localization.Abstractions" Version="1.0.27-alpha" />
+        <PackageReference Include="Senlin.Mo.Domain" Version="1.0.28-alpha"/>
+        <PackageReference Include="Senlin.Mo.Localization" Version="1.0.28-alpha" PrivateAssets="all"/>
+        <PackageReference Include="Senlin.Mo.Localization.Abstractions" Version="1.0.28-alpha" />
     </ItemGroup>
 
     <ItemGroup>

@@ -1,3 +1,6 @@
 {
-  "ERR_PetNotFound": "Pet not found"
+  "ERR_PetNotFound": "Pet not found",
+  "PetGender_Male": "Male",
+  "PetGender_Female": "Female",
+  "PetGender_Unknown": "Unknown"
 }

@@ -7,7 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Senlin.Mo.Repository.EFCore.MySQL" Version="1.0.27-alpha" />
+        <PackageReference Include="Senlin.Mo.Repository.EFCore.MySQL" Version="1.0.28-alpha" />
     </ItemGroup>
 
     <ItemGroup>

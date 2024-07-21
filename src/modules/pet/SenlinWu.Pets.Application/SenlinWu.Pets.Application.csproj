@@ -7,7 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Senlin.Mo.Application" Version="1.0.27-alpha" PrivateAssets="all" />
+        <PackageReference Include="Senlin.Mo.Application" Version="1.0.28-alpha" PrivateAssets="all" />
     </ItemGroup>
 
     <ItemGroup>

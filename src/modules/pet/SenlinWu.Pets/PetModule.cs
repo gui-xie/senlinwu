@@ -1,11 +1,8 @@
-﻿using System.Reflection;
-using Senlin.Mo.Application.Abstractions;
+﻿using Senlin.Mo.Application.Abstractions;
 using Senlin.Mo.Domain;
-using SenlinWu.Pets.Application;
 using SenlinWu.Pets.Domain;
 using SenlinWu.Pets.Repository;
 using SenlinWu.Pets.Repository.Abstractions;
-using SenlinWu.Pets.Validators;
 
 namespace SenlinWu.Pets;
 
@@ -20,14 +17,6 @@ public class PetModule(string connectionString): IModule
                 typeof(GenericRepository<>).MakeGenericType(x));
         return genericRepositories;
     }
-
-    public Assembly[] Assemblies =>
-    [
-        typeof(AddPetService).Assembly,
-        typeof(Pet).Assembly,
-        typeof(PetDbContext).Assembly,
-        typeof(AddPetDtoValidator).Assembly
-    ];
         
     public string LocalizationPath => "L/Pet";
 
